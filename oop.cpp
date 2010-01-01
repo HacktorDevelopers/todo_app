@@ -4,6 +4,7 @@
 using namespace std;
 
 int main(){
-	cout<<"Banking System";
+	
+	cout<<"Banking System"<<endl;
 	return 0;
 }
