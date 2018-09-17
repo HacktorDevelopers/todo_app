@@ -8,6 +8,7 @@ h1
 	margin-left : 5px;
 	background-color : white;
 	color : red;
+	float: right;
 	border : none;
 	cursor : pointer;
 }
