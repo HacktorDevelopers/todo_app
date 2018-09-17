@@ -1,17 +1,10 @@
-*
-{
-	padding : 0;
-	margin : 0;
+h1 {
+    color: #1abc9c;
 }
-
-body
-{
-	background : white;
-	color : black;
-}
-
-.div {
-	background-color: red;
-	color: green;
-	text-align: center;
+.rem {
+    margin-left: 5px;
+    background-color: white;
+    color: red;
+    border: none;
+    cursor: pointer;
 }
