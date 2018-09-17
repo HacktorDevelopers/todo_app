@@ -1,0 +1,17 @@
+*
+{
+	padding : 0;
+	margin : 0;
+}
+
+body
+{
+	background : white;
+	color : black;
+}
+
+.div {
+	background-color: red;
+	color: green;
+	text-align: center;
+}
