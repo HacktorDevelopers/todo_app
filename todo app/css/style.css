@@ -1,3 +1,9 @@
+*
+{
+	list-style-type: none;
+	text-decoration: none;
+}
+
 h1
 {
 	color : red;
@@ -8,13 +14,17 @@ h1
 	margin-left : 5px;
 	background-color : white;
 	color : red;
-	float: right;
+	float : right;
 	border : none;
 	cursor : pointer;
+	border-radius: 10px;
 }
 
-.todolists{
-	width: 50%;
-	padding: 10px;
-	background-color: blue;
+.todolists
+{
+	width : 50%;
+	padding : 10px;
+	background-color : blue;
+	margin: 10px;
+	border-radius: 10px;
 }
