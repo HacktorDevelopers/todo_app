@@ -7,7 +7,12 @@ $(function() {
 			$("#mylist").append(elem);
 			$("input").val("");
 			$(".rem").on("click", function() {
-				$(this).parent().remove();
+				var ask = confirm("Do you want to delete this todo?");
+				if(ask){
+					$(this).parent().remove();
+				}else{
+					alert("It is not deleted");
+				}
 			});
 		}else{
 			alert("To-do Name Must not be empty");
